@@ -1,0 +1,41 @@
+import { CommonConstants } from '../common/constants/CommonConstants'
+@Component
+export struct MineComponent{
+  build(){
+    Column(){
+      Image($r('app.media.icon'))
+      .width('100vp')
+      .height('100vp')
+      .borderRadius(5)
+      .margin({bottom:'30vp',top:'100vp'})
+      Text($r('app.string.ability_label'))
+      .fontSize('16fp')
+      .fontColor($r('app.color.list_item_title'))
+      .margin({bottom:'20vp'})
+      Text($r('app.string.version_title', CommonConstants.APP_VERSION))
+      .fontSize('14fp')
+      .fontColor($r('app.color.list_item_title'))
+      .margin({bottom:'100vp'})
+      Row(){
+        Text($r('app.string.url_title'))
+          .fontSize('16fp')
+          .fontColor($r('app.color.list_item_title'))
+        Row().layoutWeight(1)
+        Image($r('app.media.ic_right_arrow'))
+          .width('24vp')
+          .height('12vp')
+      }
+      .justifyContent(FlexAlign.SpaceBetween)
+      .alignItems(VerticalAlign.Center)
+      .padding({left:'16vp',right:'16vp'})
+      .height('44vp')
+      .backgroundColor($r('app.color.start_window_background'))
+      .borderRadius('5vp')
+      .visibility(Visibility.Hidden)
+    }
+    .width('100%')
+    .height('100%')
+    .justifyContent(FlexAlign.Start)
+    .alignItems(HorizontalAlign.Center)
+  }
+}

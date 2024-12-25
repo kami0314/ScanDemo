@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storePassword": "000000197F8FACDA05BAF145CF29AB1B11733A8439B82C93749D59A1C070835C03D3B2198ABF0A7DAA",
+          "certpath": "/Users/sunyunfei/Desktop/release.cer",
+          "keyAlias": "sun3",
+          "keyPassword": "000000190E6F6000F5645EC0937D914327E46642E1B01B5C016159348C9E58FD6776685303D9643BB3",
+          "profile": "/Users/sunyunfei/Desktop/scanRelease.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/sunyunfei/Desktop/keystore2/debug.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

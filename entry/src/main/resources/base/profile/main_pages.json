@@ -1,0 +1,8 @@
+{
+  "src": [
+    "pages/ListPage",
+    "pages/DetailPage",
+    "pages/ScanPage",
+    "pages/LaunchPage"
+  ]
+}

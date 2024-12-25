@@ -1,0 +1,68 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "This module template implements List functions."
+    },
+    {
+      "name": "ability_desc",
+      "value": "This ability loads ListPage"
+    },
+    {
+      "name": "ability_label",
+      "value": "Scan"
+    },
+    {
+      "name": "tab_title",
+      "value": "Operation"
+    },
+    {
+      "name": "list_item_title",
+      "value": "Double-line list"
+    },
+    {
+      "name": "list_item_sub_title",
+      "value": "Auxiliary text"
+    },
+    {
+      "name": "list_item_summary",
+      "value": "Right text"
+    },
+    {
+      "name": "page_title",
+      "value": "Title"
+    },
+    {
+      "name": "detail_page_list_title",
+      "value": "Title"
+    },
+    {
+      "name": "detail_default_title",
+      "value": "Default title"
+    },
+    {
+      "name": "scan_title",
+      "value": "Scan"
+    },
+    {
+      "name": "history_title",
+      "value": "history"
+    },
+    {
+      "name": "mine_title",
+      "value": "mine"
+    },
+    {
+      "name": "scan_history_title",
+      "value": "ScanHistory"
+    },
+    {
+      "name": "version_title",
+      "value": "版本:%s"
+    },
+    {
+      "name": "url_title",
+      "value": "使用协议"
+    }
+  ]
+}
